@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+ 
+
+  <head>
+    <meta charset="utf-8">
+    <title>Bubble Tea Menu List</title>
+   
+    <link href="styles.css" rel="stylesheet">  
+   
+  </head>
+  <body class="container">
+    <style>
+    body {
+        background: url('https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') center;
+        background-size: cover;
+        min-height: 600px;
+        font-family: 'Helvetica Neue', sans-serif;
+      }	
+      </style>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+          <i class="fas fa-bars"></i>
+        </label>
+     
+        <form>
+        <label class="logo">The Sweet Pop</label>
+          <ul>
+            <li><a  href="./home.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a class="active" href="#">Order Online</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <!-- <li><a href="./OrderNow.html">OrderNow</a></li>   -->
+            <!-- <li><a href="./feedback.html">Feedback</a></li>           -->
+
+            </ol>
+        </nav>
+    
+        
+         
+    </form>
+    <main>
+
+    <br>
+    <br>
+    
+          <form id='TeaList'>
+            <h2>Tea List: </h2><br>
+         
+
+            <input type="radio"  name="teatype" value="milktea" checked>Milk Tea<br> 
+          
+            <input type="radio"  name="teatype" value="blacktea" >Black Tea<br> 
+           
+            <input type="radio" name="teatype" value="slushes" >Slushes<br> 
+            <input type="radio" name="teatype" value="lemonade" >Lemonade<br> 
+            <br>
+           
+            <br>
+            <br>     
+
+        </form>
+
+<form id='BaseList'>
+    <h2>Flavors (Base) </h2><br>
+
+  <input type="radio"  name="base" value="classic" checked>Classic<br>           
+  <input type="radio"  name="base" value="almond" >Almond<br>  
+  <input type="radio" name="base" value="taro" >Taro<br> 
+  <input type="radio" name="base" value="coconutmilk" >Coconut Milk<br> 
+  <input type="radio" name="base" value="chai" >Chai<br> 
+  <input type="radio" name="base" value="thai" >Thai<br> 
+</form>
+
+
+
+<form  id='Sweetness'>
+    <h2>Sweetness</h2><br>
+  <input type="radio"  name="sweetness" value="unsweetened" >Unsweetened<br> 
+  
+  <input type="radio"  name="sweetness" value="normal" checked>Normal<br> 
+  
+  <input type="radio" name="sweetness" value="extrasweet" >Extra Sweet<br> 
+
+</form>
+
+
+
+<form id='MixersList'>
+    <h2>Mixers</h2><br>
+  <input type="checkbox" id="mixers1" name="mixers" value="Tapioca">
+  <label for="mixers1">Tapioca</label><br>
+  <input type="checkbox" id="mixers2" name="mixers" value="Lychee">
+  <label for="mixers2">Lychee Jelly</label><br>
+  <input type="checkbox" id="mixers3" name="mixers" value="Mango">
+  <label for="mixers3">Mango Jelly</label><br>
+  <input type="checkbox" id="mixers4" name="mixers" value="Sampler">
+  <label for="mixers4">Sampler Boba</label><br>
+  <input type="checkbox" id="mixers5" name="mixers" value="Blueberry">
+  <label for="mixers5">Blueberry Pops</label><br>
+  <input type="checkbox" id="mixers6" name="mixers" value="MangoPops">
+  <label for="mixers6">Mango Pops</label><br>
+  
+  <br>
+
+</form>
+
+
+
+<form id='IceLevels'>
+    <h2>Ice Levels</h2><br>
+
+  <input type="radio"  name="icelevel" value="lessicee" >Less Ice<br> 
+ 
+  <input type="radio"  name="icelevel" value="normal" checked>Normal<br> 
+
+  <input type="radio" name="icelevel" value="noice" >No Ice<br> 
+  <br> 
+</form>
+      
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<form  id='customerInfo'>
+    <h2>Customer Info </h2>
+    <br>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" ><br><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br> 
+    <label for="email">Email ID</label><br>
+    <input type="text" id="email" name="email"><br><br>   
+    <label for="phone">Phone No</label><br>
+    <input type="text" id="phone" name="phone"><br><br>
+    <br>
+   
+ </form> 
+
+
+
+ <form id='orderTotals'>
+    <h2>Order Totals: </h2>
+    <br>
+    <label for="subTotal">SubTotal: <b>$6.05</b> </label><br>
+    <br>
+    
+    <label for="tax">Tax: <b>$0.50</b></label><br>
+       
+    <br>
+    <label for="orderTotal">Order Total: <b>$6.55</b></label>
+    <br>
+    <br>
+    <!-- <label for="disclaimer"><i>*Please pay this amount at the store during order pickup</i> </label><br><br> -->
+    <label for="disclaimer"><i>** Sorry for the inconvenience, you can only order one tea per order at this time. <br>
+         Please place different orders if you need multiple items. </i> </label><br>
+ </form>
+
+
+ <form id='paymentinfo'>
+    <h2>Payment Details: </h2>
+    <br>
+    <label for="ccname">Credit Card Name:</label><br>
+    <input type="text" id="ccname" name="ccname" ><br><br>
+    <label for="ccno">Credit Card No:</label><br>
+    <input type="text" id="ccno" name="ccno" placeholder ="XXXX XXXX XXXX XXXX" pattern="\d{4} \d{4} \d{4} \d{4}" class="masked" title="Enter the 16 digits of credit card"><br><br>
+    <label for="expdate">Expiration Date</label><br>
+    <input type="text" id="expdate" name="expdate"><br> <br>
+    <label for="cvv">CVV No</label><br>
+    <input type="text" id="cvv" name="cvv"><br>
+    
+ </form>
+ 
+ <br>
+ <form id='submitButton'>
+  <br>
+ <button class="submit" id="submit" onclick="window.location.href = 'orderconfirmation.html'">Submit Order</button> 
+</form>
+     </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+    <script src="index.js"></script>
+  </body>
+</html>

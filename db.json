@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Milk Tea",
+      "imageURL" : "https://static.tripzilla.com/thumb/b/b/123323_800x.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Black Tea",
+      "imageURL" : "https://th.bing.com/th/id/OIP.kMEqcnpN5PN7bHQ1r1i3DAHaJ4?pid=ImgDet&w=600&h=800&rs=1"
+    },
+    {
+      "id": 3,
+      "name": "Milk Smoothie",
+      "imageURL" : "https://www.eatwell101.com/wp-content/uploads/2020/01/dairy-free-Blueberry-Coconut-Milk-Smoothie-2.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "Lemonade",
+        "imageURL" : "https://th.bing.com/th/id/R.ae3437524d47e88ec00ad6d0ee736f19?rik=tz9s6IF28QdQgg&pid=ImgRaw&r=0"
+      }
+
+  ]
